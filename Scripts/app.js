@@ -521,7 +521,7 @@
             // add username to navbar between contact us and login/logout
             $("li").eq(5).after(`
             <li class="nav-item">
-              <p class="nav-link">${sessionName}</p>
+              <p>${sessionName}</p>
             </li>`);
 
             // swap out the login link for logout   

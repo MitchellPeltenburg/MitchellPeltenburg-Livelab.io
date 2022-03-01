@@ -499,7 +499,7 @@
     {
         ValidateRegister("firstName", /^([A-Z][a-z]{1,3}.?\s)?([A-Z][a-z]{1,})$/, "Please enter a valid First Name. This must include at least a Capitalized first letter");
         ValidateRegister("lastName", /^([A-Z][a-z]{1,})$/, "Please enter a valid Last Name. This must include at least a Capitalized first letter");
-        ValidateRegister("emailAddress", /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,10}$/, "Please enter a valid Email Address.");
+        ValidateRegister("emailAddress", /^([a-zA-Z0-9._-]{2,})+(@[a-zA-Z0-9.-]{2,})+(\.[a-zA-Z]{2,10})$/, "Please enter a valid Email Address.");
         ValidateRegister("password", /^([a-zA-Z0-9_-]{6,})$/, "Please enter a password that is atleast 6 characters in length.");
         
     }

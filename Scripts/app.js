@@ -1,7 +1,7 @@
 /**
  * Mitchell Peltenburg
  * 100503753
- * February 28 2022
+ * February 28, 2022
  */
 
 // IIFE -- Immediately Invoked Function Expression

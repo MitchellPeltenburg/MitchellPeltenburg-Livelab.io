@@ -1,10 +1,13 @@
 "use strict";
-((function()
-{
-    // check if user is logged in
-    if(!sessionStorage.getItem("user"))
-    {
-        // if not... redirect them back to the login page
-        location.href = "login.html";
+((function () {
+    let protected_routes = [
+        "contact-list",
+        "task-list"
+    ];
+    if (protected_routes.indexOf(router.ActiveLink) > -1) {
+        if (!sessionStorage.getItem("user")) {
+            location.href = "/login";
+        }
     }
 }))();
+//# sourceMappingURL=authguard.js.map

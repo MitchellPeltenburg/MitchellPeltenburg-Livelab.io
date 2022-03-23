@@ -1,9 +1,9 @@
 {
-  "name": "ice6",
+  "name": "webd6201-w2022-lab3",
   "version": "1.0.0",
-  "description": "demo project for ice6",
+  "description": "project for lab3",
   "main": "index.js",
-  "author": "Mitchell Peltenburg",
+  "author": "Tom Tsiliopoulos",
   "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
@@ -12,6 +12,6 @@
     "jquery": "^3.6.0"
   },
   "devDependencies": {
-    "@types/jquery": "^3.5.13"
+    "@types/jquery": "^3.5.14"
   }
 }
